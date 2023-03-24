@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(#F7C8E0 0%, #B4E4FF 40%,#95BDFF 100%);
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.profileimage {
+    width: 200px;
+}
+.profile h2 {
+    color: rgba(170, 35, 35, 0.822);
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profile h4 {
+    color: rgba(224, 46, 46, 0.459);
+    transform: translateY(-10px);
+    font-size: 20px;
+    font-style: italic;
+}
+.aboutme{
+    background: linear-gradient(#fcfcfc 0%, #f3b5eebd 40%,#95beff0e 100%);
+    padding-bottom: 100px;
+    padding-top: 150px;
+}   
+.row{
+    padding: 2px 10px;
+}
+.achievement{
+    background: linear-gradient(#fff 0%, #f3c4dc77 40%,#95beff0e 100%);
+    padding-top: 150px;
+}
+.footer{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.contact a{
+    color: #152db8e8;
+    font-size: 25px;
+}
+.watermark{
+    padding-top: 50px;
+    font-size: 15px;
+}
